@@ -9,8 +9,8 @@
 # pushes it there; edit it here, never in the tap.
 
 cask "burnline" do
-  version "0.1.0"
-  sha256 "a759e1ef1803e107b0bbeeb78ad7aa9f82532cd888ffbc17aeb1d7dec3da7cdd"
+  version "0.1.1"
+  sha256 "ad7ed2a80579dc8e58a20d3ec15984a776ebd565bffb6645d55556651ea07efe"
 
   url "https://github.com/igharsha7/Burnline-AI-Usage-Tracker/releases/download/v#{version}/Burnline-#{version}.dmg"
   name "Burnline"
