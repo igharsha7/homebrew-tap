@@ -5,8 +5,13 @@ a menu-bar app and dashboard for AI coding usage, plan limits and what that
 usage would cost at API prices.
 
 ```sh
+brew tap igharsha7/tap
+brew trust --cask igharsha7/tap/burnline
 brew install --cask igharsha7/tap/burnline
 ```
+
+Homebrew 7 loads a cask from a third-party tap only once you trust it; the
+middle line trusts Burnline's cask alone. On older Homebrew, skip it.
 
 Burnline is not notarized, so macOS stops it the first time it opens. Open
 it once, then choose **Open Anyway** in **System Settings → Privacy &
